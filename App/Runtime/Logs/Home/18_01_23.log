@@ -1,0 +1,96 @@
+[ 2018-01-23T16:02:11+08:00 ] 112.230.102.219 /zhongying1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-23T16:02:11+08:00 ] 112.230.102.219 /zhongying1/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_news` WHERE ( new=0 ) ORDER BY time desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_news` WHERE ( new=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_tongji` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: userinfo C:\wamp\www\zhongying1\App\Runtime\Cache\Home\fe3c599a46db2fd61ff75c662c996df3.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-23T16:02:25+08:00 ] 112.230.102.219 /zhongying1/index.php/Index/webseo/addSeo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-01-23T16:02:25+08:00 ] 112.230.102.219 /zhongying1/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_news` WHERE ( new=0 ) ORDER BY time desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_news` WHERE ( new=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_tongji` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: userinfo C:\wamp\www\zhongying1\App\Runtime\Cache\Home\fe3c599a46db2fd61ff75c662c996df3.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

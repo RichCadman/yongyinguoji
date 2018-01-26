@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+  <meta charset="utf-8">
+  <title>充值记录</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="robots" content="index,follow"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="HandheldFriendly" content="true">
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="format-detection" content="telphone=no, email=no"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="author" content="SDTEAM">
+  <link href = "__MCSS__/join.css" rel = "stylesheet">
+  <link href="__MCSS__/main.css" rel="stylesheet"/>
+  <link rel="shortcut icon" href="favicon.ico"></head>
+<body>
+
+  <!--header start-->
+    <include file="Mpublic:header" />
+    <!--header end-->
+  <div id="mid">
+    <div class="content user">
+      <div class="wcon">
+        <div class="user_left">
+          <div class="ltit">操盘账户<img src="__MIMAGES__/arror.png" alt=""></div>
+          <ul class="clearfix">
+            <li>
+              <a href="__APP__/Mmy/index">账户信息</a> 
+            </li>
+            <li >
+              <a href="__APP__/Mmy/safe">账户安全</a> 
+            </li>
+            <li class="cur"> 
+              <a href="__APP__/Mmy/cases">操盘方案</a>
+              
+            </li>
+            <li>
+              <a href="__APP__/Mmy/deposit">账户充值</a>
+              
+            </li>
+            <li>
+              <a href="__APP__/Mmy/withdraw">账户提现</a>
+              
+            </li>
+
+          </ul>
+        </div>
+        <div class="user_right fr">
+          <ul class="tit">
+            <li  class="nocur">
+              <a href="__APP__/Mmy/cases">操盘方案</a>
+            </li>
+            <li class="nocur">
+              <a href="__APP__/Mmy/case_list.html">终止方案记录</a>
+            </li>
+            <li>
+              <a href="__APP__/Mmy/cashin_list.html">追加保证金记录</a>
+            </li>
+          </ul>
+          <div class="search">
+            <div class="sch">
+              <form  action="/user/user_cashin_list_ajax" name="pagelist" id="pagelist">
+                <input type="hidden" name="_csrf" value="fc73c90b-2b98-4e7b-bc09-012cadc8dcb3"/>
+                <span class="schs sch-blk">日期：</span>
+                <div class="sch-blk sch-mid">
+                  <input type="text" name="starttime" id="starttime" class="sch-ipt schs" autocomplete="off" />
+                  <span class="schs dt-sign" id="month1">00</span>
+                  <span class="schs toline">—</span>
+                  <input type="text" name="endtime" id="endtime" class="sch-ipt schs" autocomplete="off" />
+                  <span class="schs dt-sign" id="month2">00</span>
+                </div>
+                <input type="hidden" name="curPage" id="page" value="1"/>
+                <button type="button" class="btn btn-default schs sch-blk" id="listbtn">筛选</button>
+              </form>
+            </div>
+          </div>
+          <div class="user_con list"></div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+  <script src="__MJS__/jquery.min.js"></script>
+  <script src="__MJS__/jquery.dropkick-min.js"></script>
+  <script src="__MJS__/checkidno.js"></script>
+  <script src="__MJS__/layer/layer.js"></script>
+  <script src="__MJS__/laydate/laydate.js"></script>
+  <script src="__MJS__/main.js"></script>
+   <script type = "text/javascript" src = "__MJS__/jquery.d882153f.js"></script>
+  <script type = "text/javascript" src = "__MJS__/index.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        laydate.skin('qianhuang');
+        var start = {
+            elem: '#starttime',
+            format: 'YYYY-MM-DD 00:00:00',
+            max: '2099-06-16 23:59:59', //最大日期
+            choose: function(dates){ //选择好日期的回调
+                end.min = dates;
+                end.start = dates
+                var dates = dates.split('-');
+                $("#month1").text(dates[1]);
+            }
+        }
+        var end = {
+            elem: '#endtime',
+            format: 'YYYY-MM-DD 23:59:59',
+            max: '2099-06-16 23:59:59',
+            choose: function(dates){ //选择好日期的回调
+                start.max = dates;
+                var dates = dates.split('-');
+                $("#month2").text(dates[1]);
+            }
+        }
+        laydate(start);
+        laydate(end);
+        withdraw_list();
+    })
+    $(".tip_btn_list .nob").click(function(){
+        openifm($(this).attr('btit'),$(this).attr('burl'),$(this).attr('bheight'))
+    })
+    $(document).on('click',".pagination li:not('.disabled'),#listbtn",function(){
+        withdraw_list();
+    })
+    function page(num){
+        $("#page").val(num);
+        withdraw_list();
+    }
+    $(document).on('click',"#okSearch",function(){
+        $("#page").val($("#gopagenum").val());
+        withdraw_list();
+    })
+    function withdraw_list(){
+        var _this = $("#listbtn");
+        var data=$('#pagelist').serialize(),url=$('#pagelist').attr('action');
+        _this.attr('disabled',true);
+        var olddata = $(".user_con.list").html();
+        $(".user_con.list").html('');
+        ajax.submit(url,data,function(d){
+            var con='<div class="tablebox"><table width="95%;" border="0" cellpadding="0" cellspacing="0" class="mtable"><thead><tr><td>交易编号</td><td>方案编号</td><td>追加金额</td><td>交易时间</td></tr></thead><tbody>'
+            var page='<div class="paginationlist">';
+            if(d.success==false){
+                $(".user_con.list").html(olddata);
+                parent.layer.msg(d.resultMsg);
+                _this.removeAttr('disabled');
+                return;
+            }else{
+                if(d.data.list==null||d.data.list.length==0){
+                  con += '<tr><td colspan="4">未查询到相关记录</td></tr>';
+                }else{
+                  for(var i=0;i<d.data.list.length;i++){
+                      var data = d.data.list[i];
+                      con +='<tr><td>'+data.tradeno+'</td><td>'+data.code+'</td><td>￥'+data.moneycny+'/$'+data.moneyusd+'</td><td>'+data.begintimeShow+'</td></tr>';
+                  }
+                  page+=d.data.pagehtml;
+                }
+                con+='</tbody></table></div><div class="clear"></div>';
+                page+='</div>';
+                $(".user_con.list").html(con+page);
+                parent.layer.closeAll();
+                _this.removeAttr('disabled');
+            }
+        },function(e){
+            $(".user_con.list").html(olddata);
+            parent.layer.msg('网络繁忙请稍后再试');
+            _this.removeAttr('disabled');
+            return;
+        });
+    }
+</script>
+</body>
+</html>

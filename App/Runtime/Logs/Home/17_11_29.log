@@ -1,0 +1,918 @@
+[ 2017-11-29T11:37:38+08:00 ] 124.128.137.90 /zhongying/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T11:37:38+08:00 ] 124.128.137.90 /zhongying/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_news` WHERE ( new=0 ) ORDER BY time desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_news` WHERE ( new=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_tongji` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T11:37:42+08:00 ] 124.128.137.90 /zhongying/index.php/Index/webseo/addSeo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:webseo
+
+[ 2017-11-29T11:37:59+08:00 ] 183.3.239.167 /zhongying/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T11:38:17+08:00 ] 123.232.172.90 /zhongying/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T11:38:18+08:00 ] 123.232.172.90 /zhongying/?_t_t_t=0.8686456778917343
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T11:38:18+08:00 ] 123.232.172.90 /zhongying/index.php/Mindex/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_news` ORDER BY time desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_news` WHERE ( new=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_tongji` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T11:38:23+08:00 ] 123.232.172.90 /zhongying/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T11:38:23+08:00 ] 123.232.172.90 /zhongying/index.php/Mindex/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_news` ORDER BY time desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_news` WHERE ( new=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_tongji` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T11:38:31+08:00 ] 123.232.172.90 /zhongying/index.php/Mindex/webseo/addSeo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:webseo
+
+[ 2017-11-29T11:38:59+08:00 ] 123.232.172.90 /zhongying/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T11:38:59+08:00 ] 123.232.172.90 /zhongying/index.php/Mindex/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_news` ORDER BY time desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_news` WHERE ( new=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_tongji` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T11:39:58+08:00 ] 124.128.137.90 /zhongying/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T11:39:59+08:00 ] 124.128.137.90 /zhongying/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_news` WHERE ( new=0 ) ORDER BY time desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_news` WHERE ( new=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_tongji` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T11:40:03+08:00 ] 124.128.137.90 /zhongying/index.php/Index/webseo/addSeo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:webseo
+
+[ 2017-11-29T11:40:16+08:00 ] 124.128.137.90 /zhongying/index.php/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T11:40:17+08:00 ] 124.128.137.90 /zhongying/index.php/Product/images/ff48305dad1321a2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T11:40:17+08:00 ] 124.128.137.90 /zhongying/index.php/Product/webseo/addSeo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:webseo
+
+[ 2017-11-29T11:40:17+08:00 ] 124.128.137.90 /zhongying/index.php/Product/video/2.ogv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:video
+
+[ 2017-11-29T11:40:17+08:00 ] 124.128.137.90 /zhongying/index.php/Product/video/2.webm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:video
+
+[ 2017-11-29T11:40:17+08:00 ] 124.128.137.90 /zhongying/index.php/Product/video/2.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:video
+
+[ 2017-11-29T11:40:18+08:00 ] 124.128.137.90 /zhongying/index.php/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_licheng` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_licheng` ORDER BY time asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T11:40:18+08:00 ] 124.128.137.90 /zhongying/index.php/About/webseo/addSeo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:webseo
+
+[ 2017-11-29T11:40:19+08:00 ] 124.128.137.90 /zhongying/index.php/Join/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-11-29T11:40:20+08:00 ] 124.128.137.90 /zhongying/index.php/Join/webseo/addSeo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:webseo
+
+[ 2017-11-29T11:40:23+08:00 ] 124.128.137.90 /zhongying/index.php/Help/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T11:40:23+08:00 ] 124.128.137.90 /zhongying/index.php/Help/webseo/addSeo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:webseo
+
+[ 2017-11-29T11:40:24+08:00 ] 124.128.137.90 /zhongying/index.php/Join/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T11:40:24+08:00 ] 124.128.137.90 /zhongying/index.php/Join/webseo/addSeo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:webseo
+
+[ 2017-11-29T11:40:26+08:00 ] 124.128.137.90 /zhongying/index.php/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_licheng` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_licheng` ORDER BY time asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T11:40:26+08:00 ] 124.128.137.90 /zhongying/index.php/About/webseo/addSeo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:webseo
+
+[ 2017-11-29T11:41:00+08:00 ] 124.128.137.90 /zhongying/index.php/Index/webseo/addSeo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:webseo
+
+[ 2017-11-29T11:41:40+08:00 ] 120.204.17.70 /zhongying/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T12:29:33+08:00 ] 123.125.67.148 /zhongying/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T14:48:57+08:00 ] 123.151.77.81 /zhongying/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T14:48:57+08:00 ] 123.151.77.81 /zhongying/index.php/Mindex/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_news` ORDER BY time desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_news` WHERE ( new=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_tongji` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T14:49:04+08:00 ] 123.151.77.81 /zhongying/index.php/Mindex/webseo/addSeo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:webseo
+
+[ 2017-11-29T14:49:15+08:00 ] 123.151.77.81 /zhongying/index.php/Mjoin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T14:49:17+08:00 ] 123.151.77.81 /zhongying/index.php/Mjoin/webseo/addSeo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:webseo
+
+[ 2017-11-29T14:49:20+08:00 ] 123.151.77.81 /zhongying/index.php/Mindex/webseo/addSeo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:webseo
+
+[ 2017-11-29T14:49:23+08:00 ] 123.151.77.81 /zhongying/index.php/Mabout/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_licheng` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_licheng` ORDER BY time asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T14:49:24+08:00 ] 123.151.77.81 /zhongying/index.php/Mabout/webseo/addSeo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:webseo
+
+[ 2017-11-29T14:49:25+08:00 ] 183.192.201.97 /zhongying/index.php/Mjoin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T14:49:29+08:00 ] 123.151.77.81 /zhongying/index.php/Mindex/webseo/addSeo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:webseo
+
+[ 2017-11-29T14:56:49+08:00 ] 27.211.23.15 /zhongying/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T14:56:49+08:00 ] 27.211.23.15 /zhongying/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_news` WHERE ( new=0 ) ORDER BY time desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_news` WHERE ( new=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zy_tongji` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_tongji` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-29T14:56:52+08:00 ] 27.211.23.15 /zhongying/index.php/Index/webseo/addSeo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zy_lianxi` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zy_lianxi` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:webseo
+

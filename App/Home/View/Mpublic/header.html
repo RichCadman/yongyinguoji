@@ -1,0 +1,27 @@
+<div class="header">
+        <div class="nav">
+            <div class="nav-header">
+                <button class="nav-button">
+                    <span class = "icon-bar"></span>
+                    <span class = "icon-bar"></span>
+                    <span
+                    class = "icon-bar"></span>
+                </button>
+            </div>
+            <nav class="nav-menus">
+                <a class="item" href="__APP__/Mindex/index">首页</a>
+                <a class="item" href="__APP__/Mproduct/index">产品介绍</a>
+                <a class="item" href="__APP__/Mabout/index">关于我们</a>
+                <a class="item" href="__APP__/Mjoin/index">加入我们</a>
+                <a class="item" href="__APP__/Mhelp/index">帮助</a>
+                <if condition="$_SESSION['userinfo']" >
+                <a class="item" href = "__APP__/Mmy/index">我的账户</a>
+                <a class="item" href = "__APP__/Mlogin/index">退出</a>
+                <else/>
+                <a class="item" href = "__APP__/Mlogin/index">登录</a>
+                </if>
+            </nav>
+        </div>
+    </div>
+
+    
